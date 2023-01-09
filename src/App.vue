@@ -8,7 +8,7 @@ let change = ref(2);
 
 <template>
   <page1 v-if="change == 1"></page1>
-  <page2 v-if="change == 2"> </page2>
+  <page2 v-if="change == 2"></page2>
 </template>
 
 <style scoped></style>
