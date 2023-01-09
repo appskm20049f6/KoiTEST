@@ -3,9 +3,14 @@
 </template>
 
 <script setup>
+let change = 1;
 let changePage = () => {
-  console.log("被點了");
+  let change = 2;
+  console.log("被點了:" + change);
+  return change;
 };
+
+console.log(change);
 </script>
 
 <style scoped></style>
